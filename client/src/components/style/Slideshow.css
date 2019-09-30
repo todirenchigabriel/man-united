@@ -1,0 +1,57 @@
+.slideshow {
+    z-index: 0;
+    list-style: none;
+}
+
+.slideshow li {
+    width: 100%;
+    height: 89.3%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 50s linear infinite;
+}
+
+
+.slideshow li:nth-child(1) { 
+    background-image: url(https://wallpaperplay.com/walls/full/3/e/9/376365.jpg);
+}
+.slideshow li:nth-child(2) { 
+    background-image: url(https://wallpapercave.com/wp/wp2339603.jpg);
+    animation-delay: 5s; 
+}
+.slideshow li:nth-child(3) { 
+    background-image: url(https://wallpapercave.com/wp/wp2339578.jpg);
+    animation-delay: 10s; 
+}
+.slideshow li:nth-child(4) { 
+    background-image: url(https://wallpapercave.com/wp/wp2379506.jpg);
+    animation-delay: 15s; 
+}
+.slideshow li:nth-child(5) { 
+    background-image: url(https://wallpapercave.com/wp/wp2339599.jpg);
+    animation-delay: 20s; 
+}
+
+
+@keyframes imageAnimation { 
+    0% { 
+        opacity: 0; 
+        animation-timing-function: ease;
+    }
+    10% {
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+    20% {
+        opacity: 1
+    }
+    30% {
+        opacity: 0
+    }
+}

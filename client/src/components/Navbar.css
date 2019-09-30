@@ -1,0 +1,33 @@
+.Navbar {
+    background: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.4);
+}
+
+.Navbar-left-elements {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    text-align: center;
+    width: 50%;
+}
+
+.Navbar-right-elements {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-align: center;
+    width: 50%;
+}
+
+.Navbar-logo {
+    width: 70px;
+}
+
+.Navbar-search-icon {
+    width: 16px;
+}
