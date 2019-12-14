@@ -1,0 +1,3 @@
+- refactor the folder structure
+- refactor the components
+- move all css to individual files
